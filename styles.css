@@ -9,10 +9,47 @@
 
 body{
     font-family: 'Quattrocento Sans', sans-serif;
-    background-color: #f8fdce;
+    background-color: #fff
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #E6EFE9;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    padding-top: 10px;
+}
+
+li {
+    
+    font-size: 20px;
+    font-weight:300;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid #999;
+    
+}
+
+section {
+    padding: 10px 100px 10px 100px;
 }
 
 
+#conocenos {
+    padding-top: 6%;
+}
     
 
 
