@@ -11,14 +11,22 @@ body{
     font-family: 'Quattrocento Sans', sans-serif;
     background-color: #fff
 }
+p {
+    font-family: 'Oswald', sans-serif;
+}
 
+
+h2{
+    font-size: 36px;
+}
 nav {
     position: fixed;
     width: 100%;
     height: 10%;
-    background-color: #E6EFE9;
+    background-color: #F6F7EB;
     padding-top: 10px;
     text-align: center;
+    justify-content: center ;
 
 }
 
@@ -48,10 +56,26 @@ section {
 
 
 #conocenos {
-    padding-top: 6%;
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 300px 1fr ;
+    text-align: justify;
+    justify-content: center;
+    background-color: #E6EFE9;
 }
-    
 
+#conocenos p {
+    padding-bottom: 10px;
+}
+
+#conocenos h2 {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+
+    
 
 
 
