@@ -8,17 +8,18 @@
 }
 
 body{
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-color: #fff
 }
 p {
-    font-family: 'Oswald', sans-serif;
+    font-weight: 300; 
 }
 
 
 h2{
     font-size: 36px;
 }
+
 nav {
     position: fixed;
     width: 100%;
@@ -27,6 +28,7 @@ nav {
     padding-top: 10px;
     text-align: center;
     justify-content: center ;
+    border-bottom: 0,5px solid #DB3B2F;
 
 }
 
@@ -46,7 +48,7 @@ li {
     float: left;
     padding-right: 20px;
     padding-left: 20px;
-    border-right: 1px solid #999;
+    border-right: 1px solid #DB3B2F;
     
 }
 
@@ -54,7 +56,7 @@ section {
     padding: 10px 100px 10px 100px;
 }
 
-
+/* Class and ID */
 #conocenos {
     padding-top: 10%;
     display: grid;
@@ -62,6 +64,7 @@ section {
     text-align: justify;
     justify-content: center;
     background-color: #E6EFE9;
+    padding-bottom: 8%;
 }
 
 #conocenos p {
@@ -74,9 +77,138 @@ section {
     padding-bottom: 10px;
 }
 
-
+/* Service */
+.gridservice{
+    display: grid;
+    grid-template-columns: repeat(4, 300px );
+    grid-gap: 5px;
     
+    
+}
+#servicios{
+    background-color: #F6F7EB;
+    padding-bottom: 104px;
+}
+.inicioservicio h2, .inicioservicio p {
+
+    text-align: center;  
+}
+
+.inicioservicio h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font: size 36px;
+
+}
+
+.inicioservicio p {
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.servicecard {
+    background-color: #E6EFE9;
+    padding: 7px 7px 20px 7px;
+    width: 170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.servicecard:hover{
+    box-shadow: -1px -1px 12px 0px rgba(0,0,0,0.75);
+    transform: translateY(-3%);
+}
+
+.servicecard, .servicecard h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 5px;
+
+}
+
+.servicecard button {
+    background-color: #595959;
+    font-weight: 200;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 5px; 
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #E6EFE9;
+
+}
+
+/* Promociones*/
+#promociones {
+    background-color: #E6EFE9;
+}
+
+.gridprom{
+    display: grid;
+    grid-template-columns: repeat(4,300px  );
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-content: space-around
+}
+
+.inicioprom  {
+    border-bottom: #DB3B2F 2px solid;
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.inicioprom h2 {
+    padding-top: 4px;
+    font: size 36px;
+
+}
+
+.cardprom{
+    background-color: #F6F7EB;
+    padding: 7px 7px 20px 7px;
+    width: 170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.cardprom:hover {
+    box-shadow: -1px -1px 12px 0px rgba(0,0,0,0.75) ;
+    transform: translateY(-3%);
+}
+.cardprom img {
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cardprom, .cardprom h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 5px;
+
+}
+
+.cardprom button {
+    background-color: #595959;
+    font-weight: 200;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 5px; 
+    border-style: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #E6EFE9;
+}
 
 
-
-
+#textotachado {
+    text-decoration: line-through;
+    color: #DB3B2F;
+}
