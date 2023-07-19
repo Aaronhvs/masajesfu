@@ -41,7 +41,7 @@ nav ul li{
     padding-top: 10px;
 }
 
-li {
+nav li {
     
     font-size: 20px;
     font-weight:300;
@@ -156,7 +156,7 @@ section {
 }
 
 .inicioprom  {
-    border-bottom: #DB3B2F 2px solid;
+    border-bottom: 2px solid #DB3B2F;
     text-align: center; 
     margin-bottom: 15px;
 }
@@ -212,3 +212,73 @@ section {
     text-decoration: line-through;
     color: #DB3B2F;
 }
+
+.video{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center ;
+}
+
+.video iframe {
+    border-radius: 10px;
+    padding: 5px;
+    border: #DB3B2F solid 1px;
+}
+.iniciocontacto{
+    border-top: 1px solid #DB3B2F;
+  
+}
+
+.iniciocontacto h2, .iniciocontacto h3 {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.iniciocontacto h3{
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.gridmaps {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+    justify-content: space-between;
+
+}
+
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.itemform input, .itemform textarea {
+    border-radius: 5px ;
+    border: 1px solid #222;
+}
+
+input[type= "submit"] {
+    background-color: #595959;
+    color: #F6F7EB;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+
+}
+
+
+#contacto {
+    background-color: #E6EFE9;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+
